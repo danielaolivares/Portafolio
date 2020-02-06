@@ -1,3 +1,7 @@
-img{
+.icon{
     width: 30px;
+}
+
+.container-skill{
+    margin: 1rem 1rem 10rem 1rem;
 }
