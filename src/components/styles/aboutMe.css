@@ -1,0 +1,17 @@
+.container-principal-about-me {
+    background: #EEFCF9;
+    margin: -3rem 2rem -1rem 2rem;
+}
+
+.container-about-me {
+    text-align: left;
+    align-items: center;
+    margin-left: 1rem;
+    color: #00392F;
+}
+
+h5 {
+    padding-top: 1rem;
+    text-align: center;
+    color: #00392F;
+}

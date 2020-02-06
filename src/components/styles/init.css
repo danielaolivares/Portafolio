@@ -1,0 +1,21 @@
+.container-principal{
+    background: #33c9b8;
+    padding-bottom: 3rem;
+}
+
+.init-section-avatar{
+    
+    margin-right: 2rem;
+}
+
+.init-section-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    color: #00392F;
+}
+
+img{
+    width: 200px;
+}

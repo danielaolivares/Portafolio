@@ -1,0 +1,18 @@
+.container-proyects{
+    display: flex;
+    background: #569D92;
+    margin: 0 auto;
+}
+
+video{
+    margin-left: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.container-desciption{
+ margin: 1rem 1rem 1rem 1rem;
+}
