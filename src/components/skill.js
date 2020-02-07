@@ -8,6 +8,10 @@ import iconJS from '../images/java.svg';
 import iconNode from '../images/node.svg';
 import iconCss from '../images/css.svg';
 import iconVisual from '../images/visual.svg';
+import iconBootstrap from '../images/bootstrap.svg';
+import iconNpm from '../images/npm.svg';
+import iconTrello from '../images/trello.svg';
+import iconSlack from '../images/slack.svg';
 import "./styles/skill.css"
 
 class Skill extends React.Component {
@@ -31,9 +35,6 @@ class Skill extends React.Component {
                     <div className="col-1">
                         <img src={iconJS} alt="logo js" className="icon" />
                     </div>
-                </div>
-                <div className="row">
-
                     <div className="col-1">
                         <img src={iconNode} alt="logo nodejs" className="icon" />
                     </div>
@@ -43,7 +44,21 @@ class Skill extends React.Component {
                     <div className="col-1">
                         <img src={iconVisual} alt="logo visual" className="icon" />
                     </div>
+                    <div className="col-1">
+                        <img src={iconBootstrap} alt="logo bootstrap" className="icon" />
+                    </div>
+                    <div className="col-1">
+                        <img src={iconNpm} alt="logo npm" className="icon" />
+                    </div>
+                    <div className="col-1">
+                        <img src={iconTrello} alt="logo trello" className="icon" />
+                    </div>
+                    <div className="col-1">
+                        <img src={iconSlack} alt="logo slack" className="icon" />
+                    </div>
                 </div>
+
+
             </div>
 
         )

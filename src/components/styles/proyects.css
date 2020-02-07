@@ -10,9 +10,22 @@ video{
 }
 
 h3{
+    background: #EEFCF9;
     text-align: center;
-    margin-bottom: 4rem;
+    margin: 1rem 1rem -1rem 1rem;
+    
+    
 }
 .container-desciption{
  margin: 1rem 1rem 1rem 1rem;
+ color: #EEFCF9;
+ font-size: 23px;
+}
+
+.container-principal-proyects{
+    margin-top: -2rem;
+}
+.title-proyect-cipher{
+    color: #c93344;
+    margin-bottom: 0rem;
 }

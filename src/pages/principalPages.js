@@ -12,6 +12,7 @@ class PrincipalPage extends React.Component {
                 <AboutMe />
                 <Proyect />
                 <Skill />
+                <ContactMe />
             </div>
         )
     }

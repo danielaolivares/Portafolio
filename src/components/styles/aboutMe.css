@@ -1,6 +1,6 @@
 .container-principal-about-me {
     background: #EEFCF9;
-    margin: -3rem 2rem -1rem 2rem;
+    margin: -3rem 2rem 6rem 2rem;
 }
 
 .container-about-me {
@@ -14,4 +14,8 @@ h5 {
     padding-top: 1rem;
     text-align: center;
     color: #00392F;
+}
+
+.logoLaboratoria{
+    width: 140px;
 }
