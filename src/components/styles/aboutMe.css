@@ -19,3 +19,9 @@ h5 {
 .logoLaboratoria{
     width: 140px;
 }
+
+.init-section-avatar{
+    width: 30%;
+    margin-left: 9%;
+    margin-right: 2rem;
+}

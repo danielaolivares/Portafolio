@@ -14,7 +14,7 @@ class ContactMe extends React.Component {
                 </h3>
                 <div className="row" id="contacMe">
                     <div className="col-3">
-                        <a href="https://github.com/danielaolivares/Portafolio" target="_blank"><img src={iconGithub} alt="logo github" className="icon" /></a>
+                        <a href="https://github.com/danielaolivares/Portafolio" target="blank"><img src={iconGithub} alt="logo github" className="icon" /></a>
                     </div>
                     <div className="col-3">
                         <a href="https://www.linkedin.com/in/daniela-olivares-lemunao-466b44149/" target="blank"><img src={iconlinkedIn} alt="logo linkedIn" className="icon" /></a>

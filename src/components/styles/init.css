@@ -3,11 +3,6 @@
     padding-bottom: 3rem;
 }
 
-.init-section-avatar{
-    
-    margin-right: 2rem;
-}
-
 .init-section-name{
     display: flex;
     justify-content: center;
@@ -16,12 +11,7 @@
     color: #00392F;
 }
 
-img{
-    width: 30%;
-    margin-left: 9%;
-}
-
-.videoLogo{
+.gifLogo{
     width: 50%;
-   margin-left: 9%;
+    padding-bottom: 0%;
 }

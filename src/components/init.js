@@ -8,7 +8,7 @@ class Init extends React.Component {
     render() {
         return <div className="container-principal">
             <div className="init-section-name" >
-                <img src={logo} alt="" className="videoLogo" />
+                <img src={logo} alt="" className="gifLogo" />
             </div>
         </div>
     }
