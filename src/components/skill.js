@@ -18,7 +18,7 @@ class Skill extends React.Component {
     render() {
         return (
             <div className=" container-skill">
-                <h3>Skill</h3>
+                <h3>Skills</h3>
                 <div className="row">
                     <div className="col-1" >
                         <img src={iconFirebase} alt="logo firebase" className="icon" />
