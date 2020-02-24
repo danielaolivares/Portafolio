@@ -3,12 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap");
 
 
-body {
-    font-family: 'Lato', 'Helvetica Neue', sans-serif;
-    }
-
-h2 {
+h3 {
         font-family: 'Allerta Stencil', sans-serif;
+        text-align: center;
     }
 
 h5{
@@ -29,6 +26,37 @@ h5{
 .gifLogo{
     align-self: flex-start;
     width: 380px;
+}
+
+.container-principal-about-me {
+    background: #EEFCF9;
+    margin: -50px 20px 20px 20px;
+}
+
+.title-about-me{
+    padding-top: 10px;
+    color: #00392F;
+    padding: 30px 0px 30px 0px;
+}
+.container-about-me {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 25px;
+    color: #00392F;    
+}
+
+.logoLaboratoria{
+    width: 140px;
+}
+
+.init-section-avatar{
+    width: 320px;
+}
+
+.article-about-me{
+    display: block;
+    margin: 0px 30px 0px 50px;
 }
 /* Desktop First empiezo por el mediaquery mas grande */
 @media screen and (max-width: 1024px){
