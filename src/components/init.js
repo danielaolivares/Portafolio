@@ -1,6 +1,5 @@
 import React from 'react';
-
-import "./styles/init.css";
+import '../global.css'
 import logo from '../images/daniela.gif';
 
 

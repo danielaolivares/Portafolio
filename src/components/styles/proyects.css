@@ -28,4 +28,5 @@ h3{
 .title-proyect-cipher{
     color: #c93344;
     margin-bottom: 0rem;
+    z-index: -1;
 }

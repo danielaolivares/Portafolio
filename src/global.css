@@ -15,3 +15,30 @@ h5{
     font-family: 'Allerta Stencil', sans-serif;
     text-align: center;
 }
+
+.container-principal{
+    background: #33c9b8;
+    height: 200px;
+}
+
+.init-section-name{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gifLogo{
+    align-self: flex-start;
+    width: 380px;
+}
+/* Desktop First empiezo por el mediaquery mas grande */
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 480px){
+}
+
+@media screen and (max-width: 320px){
+}
