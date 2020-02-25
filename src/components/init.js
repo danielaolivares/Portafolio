@@ -1,6 +1,6 @@
 import React from 'react';
 import '../global.css'
-import logo from '../images/daniela.gif';
+import logo from '../images/logo dany.gif';
 
 
 class Init extends React.Component {

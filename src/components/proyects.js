@@ -1,18 +1,18 @@
 import React from 'react';
 
 import imgCipher from '../images/cipher2.mp4';
-import "./styles/proyects.css"
+import '../global.css'
 
 class Proyect extends React.Component {
     render() {
         return (
             <div className="container-principal-proyects">
-                <h3>Proyectos</h3>
-                <div className="container-proyects">
+                <div className="title-proyects">Proyectos</div>
+                <div className="container-proyect-cipher"  >
+                    <h3 className="title-proyect-cipher"> C <br /> I<br />P<br />H<br />E<br />R</h3>
 
-                    <h3 className="title-proyect-cipher"><br /> C <br /> I <br /> P <br /> H <br /> E <br /> R <br /></h3>
-                    <p className="container-desciption"> Primer acercamiento a lenguaje a JavaScript (ES6), en este proyecto cree un juego para niños, las tecnologías utilizadas fueron  GitHub, Trello, HTML, y CSS.</p>
-                    <video src={imgCipher} width="30%" height="50%" autoPlay loop ></video>
+                    <p className="container-description"> Primer acercamiento a lenguaje a JavaScript (ES6), en este proyecto cree un juego para niños, las tecnologías utilizadas fueron  GitHub, Trello, HTML5, y CSS3.</p>
+                    <video className="gif-cipher" src={imgCipher} autoPlay loop ></video>
                 </div>
             </div>
         )

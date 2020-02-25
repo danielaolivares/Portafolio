@@ -4,8 +4,8 @@
 
 
 h3 {
-        font-family: 'Allerta Stencil', sans-serif;
-        text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
     }
 
 h5{
@@ -25,7 +25,9 @@ h5{
 
 .gifLogo{
     align-self: flex-start;
-    width: 380px;
+    width: 300px;
+    padding-top: 45px;
+    margin-left: 17px;
 }
 
 .container-principal-about-me {
@@ -43,7 +45,11 @@ h5{
     text-align: left;
     align-items: center;
     margin-left: 25px;
-    color: #00392F;    
+    color: #00392F;
+    background:  #EEFCF9;
+    height: 218px;
+    margin: 0px 20px 50px 0px;
+    position: absolute;
 }
 
 .logoLaboratoria{
@@ -52,12 +58,55 @@ h5{
 
 .init-section-avatar{
     width: 320px;
+    margin: 10px 10px 86px 25px;
 }
 
 .article-about-me{
     display: block;
     margin: 0px 30px 0px 50px;
 }
+
+.container-principal-proyects{
+    background: #569D92;
+    margin: 196px 0px 0px 0px;
+    padding: 100px 41px 41px 41px;
+}
+
+.title-proyects{
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 56px;
+    margin: -57px 0px 62px 0px;
+}
+
+.container-proyect-cipher{
+    display: flex;
+}
+.title-proyect-cipher{
+    color: #c93344;
+    background: #EEFCF9;
+    position: absolute;
+    padding: 100px 30px 104px 30px;
+    margin: -160px 0px 0px 0px;
+    font-size: 36px;    
+}
+
+.container-description{
+    margin: 0px 0px 0px 0px;
+    color: #EEFCF9;
+    font-size: 23px;
+    padding: 0px 0px 0px 144px;
+}
+
+.gif-cipher{
+    border-radius: 50%;
+    width: 200px;
+    margin: -38px 0px 51px 0px;
+}
+
+
+
 /* Desktop First empiezo por el mediaquery mas grande */
 @media screen and (max-width: 1024px){
 }
