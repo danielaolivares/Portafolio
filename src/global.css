@@ -119,16 +119,16 @@ h5{
     color: #EEFCF9;
     position: absolute;
     padding: 32px 30px 110px 30px;
-    margin: -101px 0px 0px 836px;
+    margin: -102px 0px 0px 1164px;
     font-size: 30px; 
 }
 
 .container-description-social{
     font-family: 'Allerta Stencil', sans-serif;
-    margin: 0px 90px 0px 45px;
+    margin: 0px 160px 0px 45px;
     color: #c93344;
     font-size: 23px;
-    padding: 0px 0px 0px 144px;
+    padding: 0px 0px 0px 210px;
 }
 
 .container-skill{
@@ -143,7 +143,7 @@ h5{
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0px 50px 0px;
+    margin: 30px 0px 32px 30px;
 }
 
 .title-skills{
@@ -153,10 +153,22 @@ h5{
     font-size: 56px;
     margin: -25px 0px 90px 0px;
     border-bottom: 40px solid #569D92;
-    width: 942px;
+    width: 1270px;
+}
+
+.container-icons{
+    border-left: 40px solid #569D92;
+    border-bottom: 40px solid #569D92;
+    margin: -92px 30px 0px 0px;
+    height: 300px;
+    padding-top: 45px;
+    width: 1270px;
 }
 /* Desktop First empiezo por el mediaquery mas grande */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1440px){
+}
+
+@media screen and (max-width: 1440px){
 }
 
 @media screen and (max-width: 768px){
