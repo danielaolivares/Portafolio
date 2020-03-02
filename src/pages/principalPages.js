@@ -1,4 +1,6 @@
 import React from 'react';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Init from '../components/init';
 import AboutMe from '../components/aboutMe';
 import Proyect from '../components/proyects';
@@ -9,14 +11,15 @@ import ContactMe from '../components/contactMe';
 class PrincipalPage extends React.Component {
     render() {
         return (
-            <div>
+
+            <BrowserRouter>
                 <Init />
                 <AboutMe />
                 <Proyect />
                 <Social />
                 <Skill />
                 <ContactMe />
-            </div>
+            </BrowserRouter>
         )
     }
 }

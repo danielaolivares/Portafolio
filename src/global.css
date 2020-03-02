@@ -23,6 +23,28 @@ h5{
     justify-content: flex-start;
 }
 
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 58px 70px 0 0;
+}
+
+ #navegador li a {
+    color: black;
+    text-decoration: none;
+    align-content: space-around;
+ }
+ 
+ #navegador li a:hover{
+    background-color: #c93344;
+    color: #ffffff;
+ }
+
 .gifLogo{
     align-self: flex-start;
     width: 300px;
@@ -49,7 +71,6 @@ h5{
     background:  #EEFCF9;
     height: 218px;
     margin: 0px 20px 50px 0px;
-    position: absolute;
 }
 
 .logoLaboratoria{
@@ -87,7 +108,6 @@ h5{
 .title-proyect-cipher{
     color: #c93344;
     background: #EEFCF9;
-    position: absolute;
     padding: 119px 30px 104px 30px;
     margin: -202px 0px 0px 0px;
     font-size: 36px;    
@@ -102,13 +122,11 @@ h5{
 }
 
 .gif-cipher{
-    border-radius: 50%;
     width: 200px;
-    margin: -38px 0px 51px 0px;
+    margin: -38px 0px 51px 15px;
 }
 
 .container-principal-social{
-    position: absolute;
     background: #EEFCF9;
     margin: -48px 20px 20px 20px;
     padding: 100px 41px 65px 41px;
@@ -117,7 +135,7 @@ h5{
 .title-proyect-social{
     background: #569D92;
     color: #EEFCF9;
-    position: absolute;
+    float: right;
     padding: 32px 30px 110px 30px;
     margin: -102px 0px 0px 1164px;
     font-size: 30px; 
@@ -126,7 +144,7 @@ h5{
 .container-description-social{
     font-family: 'Allerta Stencil', sans-serif;
     margin: 0px 160px 0px 45px;
-    color: #c93344;
+    color: #00392F;
     font-size: 23px;
     padding: 0px 0px 0px 210px;
 }
@@ -152,23 +170,21 @@ h5{
     justify-content: center;
     font-size: 56px;
     margin: -25px 0px 90px 0px;
-    border-bottom: 40px solid #569D92;
-    width: 1270px;
+    border-top: 40px solid #569D92;
+    max-width: 1270px;
 }
 
 .container-icons{
     border-left: 40px solid #569D92;
     border-bottom: 40px solid #569D92;
-    margin: -92px 30px 0px 0px;
-    height: 300px;
-    padding-top: 45px;
-    width: 1270px;
+    margin: -157px 30px 0px 0px;
+    max-height: 335px;
+    padding-top: 71px;
+    max-width: 1270px;
 }
 /* Desktop First empiezo por el mediaquery mas grande */
-@media screen and (max-width: 1440px){
-}
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1200px){
 }
 
 @media screen and (max-width: 768px){
