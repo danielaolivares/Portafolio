@@ -26,12 +26,16 @@ h5{
 #navegador ul{
     list-style-type: none;
     text-align: center;
+    margin: 58px 70px 0 0;
+   
  }
 
  #navegador li{
     display: inline;
+    margin: 58px 70px 0 40px;
+    font-size: 18px;
+    font-family: 'Allerta Stencil', sans-serif;
     text-align: center;
-    margin: 58px 70px 0 0;
 }
 
  #navegador li a {
@@ -184,7 +188,7 @@ h5{
 }
 /* Desktop First empiezo por el mediaquery mas grande */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
 }
 
 @media screen and (max-width: 768px){
