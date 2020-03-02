@@ -8,6 +8,15 @@ class Init extends React.Component {
         return <div className="container-principal">
             <div className="init-section-name" >
                 <img src={logo} alt="" className="gifLogo" />
+                <div id="navegador">
+                    <ul>
+                        <li><a href="#AboutMe">Sobre mi</a></li>
+                        <li><a href="#Proyect">Proyectos</a></li>
+                        <li><a href="#Skill">Skills</a></li>
+                        <li><a href="#ContactMe">Contactame</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     }
