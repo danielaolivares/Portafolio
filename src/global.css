@@ -288,4 +288,10 @@ p{
 .links-to-projects{
     justify-content: space-around;
 }
+.container-skill{
+    width: 175%;
+}
+.contact-me{
+    width: 175%;
+}
 }
