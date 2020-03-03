@@ -10,7 +10,7 @@ class ContactMe extends React.Component {
     render() {
         return (
             <ScrollableAnchor id="ContactMe">
-                <div>
+                <div className="contact-me">
                     <h3>
                         Contactame!!
                 </h3>

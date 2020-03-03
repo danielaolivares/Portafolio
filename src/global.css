@@ -32,7 +32,7 @@ h5{
 
  #navegador li{
     display: inline;
-    margin: 58px 70px 0 40px;
+    margin: 58px 26px 0 40px;
     font-size: 18px;
     font-family: 'Allerta Stencil', sans-serif;
     text-align: center;
@@ -57,14 +57,16 @@ h5{
 }
 
 .container-principal-about-me {
-    background: #EEFCF9;
-    margin: -50px 20px 20px 20px;
+    background: #FFFFFF;
+    margin: 0px 20px 20px 20px;
 }
 
 .title-about-me{
     padding-top: 10px;
     color: #00392F;
     padding: 30px 0px 30px 0px;
+    margin-left: 23%;
+    margin-top: 19px;
 }
 .container-about-me {
     display: flex;
@@ -72,9 +74,9 @@ h5{
     align-items: center;
     margin-left: 25px;
     color: #00392F;
-    background:  #EEFCF9;
+    background:  #FFFFFF;
     height: 218px;
-    margin: 0px 20px 50px 0px;
+    margin-top: 60px;
 }
 
 .logoLaboratoria{
@@ -89,13 +91,14 @@ h5{
 .article-about-me{
     font-family: 'Allerta Stencil', sans-serif;
     display: block;
-    margin: -68px 30px 0px 50px;
+    margin: 0px 30px 0px 98px;
+    font-size: 18px;
 }
 
 .container-principal-proyects{
-    background: #569D92;
-    margin: 176px 0px 0px 0px;
+    background: #33c9b8;
     padding: 100px 41px 65px 41px;
+    margin-top: 60px;
 }
 
 .title-proyects{
@@ -111,38 +114,42 @@ h5{
 }
 .title-proyect-cipher{
     color: #c93344;
-    background: #EEFCF9;
-    padding: 119px 30px 104px 30px;
-    margin: -202px 0px 0px 0px;
-    font-size: 36px;    
+    background: #FFFFFF;
+    padding: 119px 30px 80px 30px;
+    margin: -253px 0px -89px 0px;
+    font-size: 36px;
+    max-height: 540px;   
 }
 
 .container-description{
     font-family: 'Allerta Stencil', sans-serif;
     margin: -30px 0px 0px 0px;
-    color: #EEFCF9;
+    color: #00392F;
     font-size: 23px;
     padding: 0px 0px 0px 144px;
 }
 
 .gif-cipher{
-    width: 200px;
+    width: 352px;
+    height: 352px;
     margin: -38px 0px 51px 15px;
 }
-
+.gif-social{
+    width: 352px;
+    height: 352px;
+}
 .container-principal-social{
-    background: #EEFCF9;
-    margin: -48px 20px 20px 20px;
+    background: #FFFFFF;
+    
     padding: 100px 41px 65px 41px;
 }
 
 .title-proyect-social{
-    background: #569D92;
-    color: #EEFCF9;
+    color: #00392F;
+    background: #33c9b8;
     float: right;
-    padding: 32px 30px 110px 30px;
-    margin: -102px 0px 0px 1164px;
-    font-size: 30px; 
+    padding: 45px 30px 80px 30px;
+    margin: -102px 0px 0px 0px;
 }
 
 .container-description-social{
@@ -154,8 +161,8 @@ h5{
 }
 
 .container-skill{
-    margin: 400px -18px 10px 28px;
-    padding: 10px 0px 10px 10px;
+    margin: 199px 41px 0px 12px;
+    padding: 11px 0px 0px 10px;
 }
 
 .icon{
@@ -174,17 +181,18 @@ h5{
     justify-content: center;
     font-size: 56px;
     margin: -25px 0px 90px 0px;
-    border-top: 40px solid #569D92;
     max-width: 1270px;
 }
 
 .container-icons{
-    border-left: 40px solid #569D92;
-    border-bottom: 40px solid #569D92;
-    margin: -157px 30px 0px 0px;
+    margin: -100px 0px 0px 0px;
     max-height: 335px;
-    padding-top: 71px;
+    padding: 80px;
     max-width: 1270px;
+}
+
+.contact-me{
+    background: #33c9b8;
 }
 /* Desktop First empiezo por el mediaquery mas grande */
 
