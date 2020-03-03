@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url("https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap");
 
-
+h1{
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
     text-align: center;
@@ -89,24 +92,28 @@ h5{
 .container-principal-proyects{
     display: flex;
     background: #33c9b8;
-    padding: 100px 41px 65px 41px;
+    padding: 80px 41px 65px 41px;
     flex-direction: row;
+}
+.container-principal-proyects h3 {
+    text-align: left;
 }
 
 .title-proyects{
     font-family: 'Allerta Stencil', sans-serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 56px;
-    margin: -23px 0px 90px 0px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;  
 }
 
 .title-proyect-cipher{
     color: #c93344;
-    padding: 119px 30px 80px 30px;
-    margin: -253px 0px -89px 0px;
-    font-size: 36px;
-    max-height: 540px;   
+    font-size: 40px;
+}
+.links-to-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container-description{
@@ -118,17 +125,16 @@ h5{
 }
 
 .gif-cipher{
-    width: 352px;
-    height: 352px;
+    max-width: 300px;
+    max-height: 300px;
     margin: -38px 0px 51px 15px;
 }
 .logo-github{
-    width: 70px;
-    height: 70px;
+    width: 40px;
 }
 .direction{
     font-weight: bold;
-    font-size: 38px;
+    font-size: 28px;
     color: #c93344;
 
 }
