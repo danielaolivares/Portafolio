@@ -8,7 +8,7 @@ import '../global.css'
 class Proyect extends React.Component {
     render() {
         return (
-            <ScrollableAnchor id="Proyect">
+            <ScrollableAnchor>
                 <div className="container-principal-proyects">
                     <div className="title-proyects"><h1>Proyectos</h1>
                         <h3 className="title-proyect-cipher">CIPHER</h3>

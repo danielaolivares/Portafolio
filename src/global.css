@@ -21,6 +21,8 @@ h5{
     justify-content: space-between;
     background: #33c9b8;
     height: 150px;
+    position: fixed;
+    width: 100%;
 }
 
 #navegador ul{
@@ -59,7 +61,8 @@ h5{
 
 .container-principal-about-me {
     background: #FFFFFF;
-    margin: 20px 25px 20px;
+    margin: 0px 25px 20px;
+    padding-top: 150px;
 }
 
 .title-about-me{
@@ -168,39 +171,35 @@ h5{
 .title-proyect-social h3{
     text-align: right;
 }
+
 .container-skill{
-    margin: 199px 41px 0px 12px;
-    padding: 11px 0px 0px 10px;
-}
-
-.icon{
-    width: 35px;
-}
-
-.row {
+    background: #33c9b8;
     display: flex;
-    flex-wrap: wrap;
-    margin: 30px 0px 32px 30px;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.container-skill h3{
+    margin-top: 30px;
 }
 
-.title-skills{
-    font-family: 'Allerta Stencil', sans-serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 56px;
-    margin: -25px 0px 90px 0px;
-    max-width: 1270px;
+.container-icons .icon{
+    width: 30px;
 }
 
 .container-icons{
-    margin: -100px 0px 0px 0px;
-    max-height: 335px;
-    padding: 80px;
-    max-width: 1270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .contact-me{
-    background: #33c9b8;
+    background: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contacMe{
+    margin-top:30px;
 }
 /* Desktop First empiezo por el mediaquery mas grande */
 
@@ -210,8 +209,21 @@ h5{
 @media screen and (max-width: 768px){
 }
 
-@media screen and (max-width: 480px){
-}
+@media screen and (max-width: 430px){
+    .init-section-name {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+    #navegador{
+        display: flex;
+    }
 
-@media screen and (max-width: 320px){
+    #navegador ul {
+        display: flex;
+        margin: 0px 70px 0 0;
 }
+#navegador li {
+    margin: 3px 26px 0 40px;
+}
+    }
