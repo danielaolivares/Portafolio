@@ -134,6 +134,16 @@ h5{
     height: 352px;
     margin: -38px 0px 51px 15px;
 }
+.logo-github{
+    width: 70px;
+    height: 70px;
+}
+.direction{
+    font-weight: bold;
+    font-size: 38px;
+    color: #c93344;
+
+}
 .gif-social{
     width: 352px;
     height: 352px;
