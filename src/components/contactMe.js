@@ -22,7 +22,7 @@ class ContactMe extends React.Component {
                             <a href="https://www.linkedin.com/in/daniela-olivares-lemunao-466b44149/" target="blank"><img src={iconlinkedIn} alt="logo linkedIn" className="icon" /></a>
                         </div>
                         <div className="col-3">
-                            <a href="file:///C:/Users/Dani%20Olivares/Desktop/daniela_olivares_cv2.pdf" target="blank"><img src={iconCurriculum} alt="logo curiculum" className="icon" /></a>
+                            <a href="src/doc/daniela_olivares_c2.pdf" download=""><img src={iconCurriculum} alt="logo curiculum" className="icon" /></a>
                         </div>
                     </div>
                 </div>
