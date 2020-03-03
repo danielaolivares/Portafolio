@@ -66,7 +66,6 @@ h5{
 }
 
 .title-about-me{
-    padding-top: 10px;
     color: #00392F;
     padding: 30px 0px 30px 0px;
 }
@@ -226,4 +225,67 @@ h5{
 #navegador li {
     margin: 3px 26px 0 40px;
 }
-    }
+
+.container-principal-about-me{
+    margin: 0px 20px 20px 20px;
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 160%;
+    justify-content: center;
+}
+
+
+.container-about-me {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .init-section-avatar{
+    display: flex;
+    justify-content: center;
+    
+    padding: 0px 0px 42px 0px;
+}
+
+.article-about-me{
+    margin: 0px 30px 0px 75px;
+}
+
+.container-principal-proyects{
+    flex-wrap: wrap;
+    align-items: center;
+    width: 175%;
+}
+
+.title-proyects {
+    margin: 0px 0px 0px 255px;
+    align-items: center;
+    height: 320px;
+}
+.container-principal-proyects h3 {
+    justify-content: center;
+}
+p{
+    margin: 0px 20px 35px 20px;
+    text-align: center;
+}
+.container-description {
+    margin-bottom: 55px;
+}
+.container-principal-social {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 160%;
+    padding-right: 0px;
+}
+.title-proyect-social {
+    display: flex;
+    justify-content: center;
+}
+.links-to-projects{
+    justify-content: space-around;
+}
+}
