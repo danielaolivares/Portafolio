@@ -114,20 +114,21 @@ h5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container-description{
     font-family: 'Allerta Stencil', sans-serif;
-    margin: -30px 0px 0px 0px;
     color: #00392F;
-    font-size: 23px;
-    padding: 0px 0px 0px 144px;
+    font-size: 20px;
+    padding: 0px 0px 0px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gif-cipher{
-    max-width: 300px;
-    max-height: 300px;
-    margin: -38px 0px 51px 15px;
+    max-width: 250px;
 }
 .logo-github{
     width: 40px;
@@ -136,34 +137,37 @@ h5{
     font-weight: bold;
     font-size: 28px;
     color: #c93344;
+}
 
-}
-.gif-social{
-    width: 352px;
-    height: 352px;
-}
 .container-principal-social{
+    font-family: 'Allerta Stencil', sans-serif;
+    display: flex;
     background: #FFFFFF;
-    
     padding: 100px 41px 65px 41px;
-}
-
-.title-proyect-social{
-    color: #00392F;
-    background: #33c9b8;
-    float: right;
-    padding: 45px 30px 80px 30px;
-    margin: -102px 0px 0px 0px;
+    flex-direction: row;
 }
 
 .container-description-social{
     font-family: 'Allerta Stencil', sans-serif;
-    margin: 0px 160px 0px 45px;
     color: #00392F;
-    font-size: 23px;
-    padding: 0px 0px 0px 210px;
+    font-size: 20px;
+    padding-right: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.gif-social{
+    width: 250px;
+}
+.title-proyect-social{
+    color: #c93344;
+    font-size: 40px;
 }
 
+.title-proyect-social h3{
+    text-align: right;
+}
 .container-skill{
     margin: 199px 41px 0px 12px;
     padding: 11px 0px 0px 10px;
