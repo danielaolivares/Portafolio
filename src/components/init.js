@@ -5,7 +5,7 @@ import logo from '../images/logo dany.gif';
 
 class Init extends React.Component {
     render() {
-        return <div className="container-principal">
+        return (
             <div className="init-section-name" >
                 <img src={logo} alt="" className="gifLogo" />
                 <div id="navegador">
@@ -18,7 +18,7 @@ class Init extends React.Component {
                 </div>
 
             </div>
-        </div>
+        )
     }
 }
 

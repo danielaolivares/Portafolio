@@ -13,20 +13,18 @@ h5{
     text-align: center;
 }
 
-.container-principal{
-    background: #33c9b8;
-    height: 200px;
-}
-
 .init-section-name{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    background: #33c9b8;
+    height: 150px;
 }
 
 #navegador ul{
     list-style-type: none;
     text-align: center;
     margin: 58px 70px 0 0;
+    
    
  }
 
@@ -58,25 +56,19 @@ h5{
 
 .container-principal-about-me {
     background: #FFFFFF;
-    margin: 0px 20px 20px 20px;
+    margin: 20px 25px 20px;
 }
 
 .title-about-me{
     padding-top: 10px;
     color: #00392F;
     padding: 30px 0px 30px 0px;
-    margin-left: 23%;
-    margin-top: 19px;
 }
 .container-about-me {
     display: flex;
     text-align: left;
-    align-items: center;
-    margin-left: 25px;
     color: #00392F;
     background:  #FFFFFF;
-    height: 218px;
-    margin-top: 60px;
 }
 
 .logoLaboratoria{
@@ -84,21 +76,21 @@ h5{
 }
 
 .init-section-avatar{
-    width: 320px;
+    max-width: 320px;
     margin: 10px 10px 86px 25px;
 }
 
 .article-about-me{
     font-family: 'Allerta Stencil', sans-serif;
-    display: block;
-    margin: 0px 30px 0px 98px;
+    margin: 0px 30px 0px 75px;
     font-size: 18px;
 }
 
 .container-principal-proyects{
+    display: flex;
     background: #33c9b8;
     padding: 100px 41px 65px 41px;
-    margin-top: 60px;
+    flex-direction: row;
 }
 
 .title-proyects{
@@ -109,12 +101,8 @@ h5{
     margin: -23px 0px 90px 0px;
 }
 
-.container-proyect-cipher{
-    display: flex;
-}
 .title-proyect-cipher{
     color: #c93344;
-    background: #FFFFFF;
     padding: 119px 30px 80px 30px;
     margin: -253px 0px -89px 0px;
     font-size: 36px;
