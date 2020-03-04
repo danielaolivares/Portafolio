@@ -184,7 +184,7 @@ h5{
 }
 
 .container-icons .icon{
-    width: 30px;
+    width: 45px;
 }
 
 .container-icons{
@@ -207,10 +207,18 @@ h5{
 @media screen and (max-width: 1024px){
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 822px){
+    .init-section-avatar {
+        width: 320px;
+        height: 230px;
+        margin: 10px 10px 86px 25px;
+    }
 }
 
 @media screen and (max-width: 430px){
+    h1{
+        font-size: 65px;
+    }
 
     body {
         width: 100%;
@@ -232,9 +240,12 @@ h5{
 #navegador li {
     margin: 3px 15px 0 40px;
 }
+.gif-cipher {
+    margin-bottom: 50px;
+}
 
 .container-principal-about-me{
-   text-align: center;
+    text-align: center;
     padding-top: 170px;
     display: flex;
     flex-wrap: wrap;
@@ -243,21 +254,22 @@ h5{
     justify-content: center;
 }
 
-
 .container-about-me {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
-    .init-section-avatar{
+.init-section-avatar{
     display: flex;
     justify-content: center;    
-    padding: 0px 0px 42px 0px;
+    padding: 0px 0px 40px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 .article-about-me{
-    margin: 0px 30px 0px 75px;
+    margin: 0px 30px 30px 30px;
 }
 
 .container-principal-proyects{
@@ -277,8 +289,8 @@ h5{
     justify-content: center;
 }
 p{
-    margin: 0px 20px 35px 20px;
-    text-align: center;
+    margin: 0px 50px 35px 50px;
+    text-align: justify;
 }
 .container-description {
     margin-bottom: 55px;
@@ -288,12 +300,16 @@ p{
 .container-principal-social {
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    width: 175%;
+    width: 160%;
     padding: 0;
+    margin: 50px 50px 50px 50px;
 }
 .title-proyect-social {
     display: flex;
     justify-content: center;
+}
+.container-description-social{
+    padding-right: 0;
 }
 .links-to-projects{
     justify-content: space-around;
