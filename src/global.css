@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url("https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap");
 
+
+
 h1{
     font-size: 3rem;
     padding-bottom: 25px;
@@ -19,7 +21,7 @@ h5{
 .init-section-name{
     display: flex;
     justify-content: space-between;
-    background: #33c9b8;
+    background: #33c9b7cc;
     height: 150px;
     position: fixed;
     width: 100%;
@@ -209,6 +211,11 @@ h5{
 }
 
 @media screen and (max-width: 430px){
+
+    body {
+        width: 100%;
+    }
+
     .init-section-name {
         justify-content: center;
         flex-wrap: wrap;
@@ -223,11 +230,11 @@ h5{
         margin: 0px 70px 0 0;
 }
 #navegador li {
-    margin: 3px 26px 0 40px;
+    margin: 3px 15px 0 40px;
 }
 
 .container-principal-about-me{
-    margin: 0px 20px 20px 20px;
+   text-align: center;
     padding-top: 170px;
     display: flex;
     flex-wrap: wrap;
@@ -245,8 +252,7 @@ h5{
 
     .init-section-avatar{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     padding: 0px 0px 42px 0px;
 }
 
@@ -258,12 +264,14 @@ h5{
     flex-wrap: wrap;
     align-items: center;
     width: 175%;
+    padding: 0;
 }
 
 .title-proyects {
-    margin: 0px 0px 0px 255px;
+    justify-content: center;
     align-items: center;
-    height: 320px;
+    height: 300px;
+    width: 175%;
 }
 .container-principal-proyects h3 {
     justify-content: center;
@@ -274,12 +282,14 @@ p{
 }
 .container-description {
     margin-bottom: 55px;
+    padding: 0;
+    font-size: 25px;
 }
 .container-principal-social {
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    width: 160%;
-    padding-right: 0px;
+    width: 175%;
+    padding: 0;
 }
 .title-proyect-social {
     display: flex;
