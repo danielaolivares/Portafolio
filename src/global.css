@@ -190,8 +190,8 @@ h5{
 .container-icons{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .contact-me{
@@ -227,7 +227,7 @@ h5{
     .init-section-name {
         justify-content: center;
         flex-wrap: wrap;
-        height: 150px;
+        height: 180px;
     }
     #navegador{
         display: flex;
